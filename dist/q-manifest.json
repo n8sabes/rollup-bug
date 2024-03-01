@@ -1,5 +1,5 @@
 {
-  "manifestHash": "fdjdng",
+  "manifestHash": "tv31u0",
   "symbols": {
     "s_0WQh6CmOu1E": {
       "origin": "component.tsx",
@@ -12,7 +12,7 @@
       "parent": null,
       "loc": [
         206,
-        545
+        781
       ]
     },
     "s_ITZElfFEBMI": {
@@ -31,24 +31,24 @@
     }
   },
   "mapping": {
-    "s_0WQh6CmOu1E": "entry_component-DhOEkw_9.js",
-    "s_ITZElfFEBMI": "s_itzelffebmi-C6TS-OFk.js"
+    "s_0WQh6CmOu1E": "entry_component-tALj03vr.js",
+    "s_ITZElfFEBMI": "s_itzelffebmi-BBbRbRI_.js"
   },
   "bundles": {
-    "core.prod-BxGGwZQY.js": {
-      "size": 67643,
+    "core.prod-DgySyvsF.js": {
+      "size": 157897,
       "origins": [
         "@builder.io/qwik/build",
         "node_modules/.pnpm/@builder.io+qwik@1.4.5_undici@6.6.2/node_modules/@builder.io/qwik/core.prod.mjs"
       ]
     },
-    "entry_component-DhOEkw_9.js": {
-      "size": 625,
+    "entry_component-tALj03vr.js": {
+      "size": 1243,
       "imports": [
-        "core.prod-BxGGwZQY.js"
+        "core.prod-DgySyvsF.js"
       ],
       "dynamicImports": [
-        "s_itzelffebmi-C6TS-OFk.js"
+        "s_itzelffebmi-BBbRbRI_.js"
       ],
       "origins": [
         "src/entry_component.js",
@@ -58,13 +58,13 @@
         "s_0WQh6CmOu1E"
       ]
     },
-    "index-hqLhOCk-.js": {
-      "size": 26918,
+    "index-BSQfRBol.js": {
+      "size": 38668,
       "imports": [
-        "core.prod-BxGGwZQY.js"
+        "core.prod-DgySyvsF.js"
       ],
       "dynamicImports": [
-        "entry_component-DhOEkw_9.js"
+        "entry_component-tALj03vr.js"
       ],
       "origins": [
         "index.html",
@@ -73,13 +73,13 @@
         "src/index.tsx"
       ]
     },
-    "s_itzelffebmi-C6TS-OFk.js": {
-      "size": 9317,
+    "s_itzelffebmi-BBbRbRI_.js": {
+      "size": 19774,
       "imports": [
-        "core.prod-BxGGwZQY.js"
+        "core.prod-DgySyvsF.js"
       ],
       "dynamicImports": [
-        "web-Df0nbaTY.js"
+        "web-C9qO90tE.js"
       ],
       "origins": [
         "node_modules/.pnpm/@capacitor+core@5.7.0/node_modules/@capacitor/core/dist/index.js",
@@ -90,11 +90,11 @@
         "s_ITZElfFEBMI"
       ]
     },
-    "web-Df0nbaTY.js": {
-      "size": 930,
+    "web-C9qO90tE.js": {
+      "size": 1385,
       "imports": [
-        "core.prod-BxGGwZQY.js",
-        "s_itzelffebmi-C6TS-OFk.js"
+        "core.prod-DgySyvsF.js",
+        "s_itzelffebmi-BBbRbRI_.js"
       ],
       "origins": [
         "node_modules/.pnpm/@capacitor+geolocation@5.0.7_@capacitor+core@5.7.0/node_modules/@capacitor/geolocation/dist/esm/web.js"
