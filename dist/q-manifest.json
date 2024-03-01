@@ -1,0 +1,121 @@
+{
+  "manifestHash": "fdjdng",
+  "symbols": {
+    "s_0WQh6CmOu1E": {
+      "origin": "component.tsx",
+      "displayName": "component_component",
+      "canonicalFilename": "s_0wqh6cmou1e",
+      "hash": "0WQh6CmOu1E",
+      "ctxKind": "function",
+      "ctxName": "component$",
+      "captures": false,
+      "parent": null,
+      "loc": [
+        206,
+        545
+      ]
+    },
+    "s_ITZElfFEBMI": {
+      "origin": "component.tsx",
+      "displayName": "component_component__Fragment_button_onClick",
+      "canonicalFilename": "s_itzelffebmi",
+      "hash": "ITZElfFEBMI",
+      "ctxKind": "eventHandler",
+      "ctxName": "onClick$",
+      "captures": false,
+      "parent": "s_0WQh6CmOu1E",
+      "loc": [
+        329,
+        479
+      ]
+    }
+  },
+  "mapping": {
+    "s_0WQh6CmOu1E": "entry_component-DhOEkw_9.js",
+    "s_ITZElfFEBMI": "s_itzelffebmi-C6TS-OFk.js"
+  },
+  "bundles": {
+    "core.prod-BxGGwZQY.js": {
+      "size": 67643,
+      "origins": [
+        "@builder.io/qwik/build",
+        "node_modules/.pnpm/@builder.io+qwik@1.4.5_undici@6.6.2/node_modules/@builder.io/qwik/core.prod.mjs"
+      ]
+    },
+    "entry_component-DhOEkw_9.js": {
+      "size": 625,
+      "imports": [
+        "core.prod-BxGGwZQY.js"
+      ],
+      "dynamicImports": [
+        "s_itzelffebmi-C6TS-OFk.js"
+      ],
+      "origins": [
+        "src/entry_component.js",
+        "src/s_0wqh6cmou1e.js"
+      ],
+      "symbols": [
+        "s_0WQh6CmOu1E"
+      ]
+    },
+    "index-hqLhOCk-.js": {
+      "size": 26918,
+      "imports": [
+        "core.prod-BxGGwZQY.js"
+      ],
+      "dynamicImports": [
+        "entry_component-DhOEkw_9.js"
+      ],
+      "origins": [
+        "index.html",
+        "node_modules/.pnpm/@builder.io+qwik@1.4.5_undici@6.6.2/node_modules/@builder.io/qwik/server.mjs",
+        "src/component.tsx",
+        "src/index.tsx"
+      ]
+    },
+    "s_itzelffebmi-C6TS-OFk.js": {
+      "size": 9317,
+      "imports": [
+        "core.prod-BxGGwZQY.js"
+      ],
+      "dynamicImports": [
+        "web-Df0nbaTY.js"
+      ],
+      "origins": [
+        "node_modules/.pnpm/@capacitor+core@5.7.0/node_modules/@capacitor/core/dist/index.js",
+        "node_modules/.pnpm/@capacitor+geolocation@5.0.7_@capacitor+core@5.7.0/node_modules/@capacitor/geolocation/dist/esm/index.js",
+        "src/s_itzelffebmi.js"
+      ],
+      "symbols": [
+        "s_ITZElfFEBMI"
+      ]
+    },
+    "web-Df0nbaTY.js": {
+      "size": 930,
+      "imports": [
+        "core.prod-BxGGwZQY.js",
+        "s_itzelffebmi-C6TS-OFk.js"
+      ],
+      "origins": [
+        "node_modules/.pnpm/@capacitor+geolocation@5.0.7_@capacitor+core@5.7.0/node_modules/@capacitor/geolocation/dist/esm/web.js"
+      ]
+    }
+  },
+  "injections": [],
+  "version": "1",
+  "options": {
+    "target": "client",
+    "buildMode": "production",
+    "entryStrategy": {
+      "type": "smart"
+    }
+  },
+  "platform": {
+    "qwik": "1.4.5",
+    "vite": "",
+    "rollup": "4.12.0",
+    "env": "node",
+    "os": "darwin",
+    "node": "20.11.1"
+  }
+}
